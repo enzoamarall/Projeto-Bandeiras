@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    height: 400px;
+    width: 600px;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh; /* ALtura */
+    align-items: center;
+    background: linear-gradient(green, rgb(175, 174, 174), yellow);
+}
+#central{
+    width: 600px; /* largura */
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 10px;
+}
+#botoes{
+    display: flex;
+    justify-content: space-between;
+}
+#botoes button{
+    width: 80px;
+    background: darkred;
+    color: white;
+    outline: none; /* tira a borda interna */
+    border: none; /* tira a borda externa */
+    cursor: pointer; /* serve pra passar o mause em cima e poder ficar como clica */
+    border-radius: 8px;
+    padding: 5px 10px; /* espaçamento interno */
+}
+
